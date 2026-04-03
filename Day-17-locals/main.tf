@@ -1,7 +1,7 @@
 locals {
   region = "us-east-1"
   instance_type = "t2.micro"
-  ami_id = "ami-12345"
+  ami_id = "ami-02dfbd4ff395f2a1b"
 }
 resource "aws_instance" "name" {
     ami = local.ami_id
